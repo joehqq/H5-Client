@@ -1,0 +1,36 @@
+{
+	"easycom": {
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	},
+    "pages": [ //pages数组中第一项表示应用启动页,
+        {
+            "path": "pages/login/login",
+            "style": {}
+        }
+        ,{
+            "path" : "pages/home/home/home",
+            "style" : {}
+        },{
+            "path" : "pages/home/Details/Details",
+            "style" : {}
+        },{
+            "path" : "pages/Notice/Notice",
+            "style" : {}
+        },{
+            "path" : "pages/task/tesk",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/forzt/forzt",
+            "style" : {}
+        }
+    ],
+    "globalStyle": {
+    	"navigationBarTextStyle": "black",
+    	"navigationBarTitleText": "登录",
+    	"navigationBarBackgroundColor": "#F8F8F8",
+    	"backgroundColor": "#F8F8F8",
+    	"navigationStyle": "custom"
+    }
+	
+}
